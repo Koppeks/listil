@@ -31,6 +31,8 @@ La app esta hecha con
 - Frontend: Next.js, Redux toolkit, Sass, Framer motion, React-Aria.
 - Backend: Sequelize, Express, Postgres, Firebase y Auth0
 
+#Si agregan mas consas, anotenlas aca
+
 
 ## Instalación
 
