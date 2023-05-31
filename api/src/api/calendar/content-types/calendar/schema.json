@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calendars",
+  "info": {
+    "singularName": "calendar",
+    "pluralName": "calendars",
+    "displayName": "Reminder",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "regex": "/^[a-zA-ZÀ-ÿ0-9\\s'-]*$/"
+    },
+    "Repeat": {
+      "type": "enumeration",
+      "enum": [
+        "Daily",
+        "Weekly",
+        "Monthly",
+        "Annually"
+      ],
+      "required": false
+    },
+    "NotificationByEmail": {
+      "type": "boolean",
+      "default": false
+    },
+    "AllDay": {
+      "type": "boolean",
+      "default": false
+    },
+    "DateTime": {
+      "type": "datetime",
+      "required": true
+    },
+    "Color": {
+      "type": "json",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": false,
+      "maxLength": 600
+    },
+    "ReminderId": {
+      "type": "uid",
+      "required": true
+    },
+    "list": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::list.list"
+    },
+    "note": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::note.note"
+    }
+  }
+}

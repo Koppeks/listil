@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notes",
+  "info": {
+    "singularName": "note",
+    "pluralName": "notes",
+    "displayName": "Note",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "minLength": 4,
+      "maxLength": 50,
+      "regex": "/^[a-zA-ZÀ-ÿ0-9\\s'-]*$/"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "NoteId": {
+      "type": "uid",
+      "required": true
+    },
+    "Color": {
+      "type": "json"
+    }
+  }
+}

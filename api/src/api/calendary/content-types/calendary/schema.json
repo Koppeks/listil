@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calendaries",
+  "info": {
+    "singularName": "calendary",
+    "pluralName": "calendaries",
+    "displayName": "Calendary",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reminders": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::calendar.calendar"
+    },
+    "CalendarId": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}
