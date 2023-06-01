@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 0 .8em;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 4em;
+    }
+}
+
+.listil {
+    font-family: 'Seaweed Script', cursive;
+    font-weight: 400;
+    font-size: 42px;
+}
+
+@media(min-width: 768px) {
+    .listil {
+        font-size: 64px;
+    }
+}
+ 
+.navegacion {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        gap: 52px;
+        font-size: 24px;
+    }
+}
