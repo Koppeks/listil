@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reminders",
+  "info": {
+    "singularName": "reminder",
+    "pluralName": "reminders",
+    "displayName": "Reminder",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ReminderId": {
+      "type": "uid",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "regex": "/^[a-zA-ZÀ-ÿ0-9\\s'-]*$/",
+      "required": true,
+      "maxLength": 50
+    },
+    "DateTime": {
+      "type": "datetime",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": false,
+      "maxLength": 600
+    },
+    "AllDay": {
+      "type": "boolean",
+      "default": false
+    },
+    "Repeat": {
+      "type": "enumeration",
+      "enum": [
+        "no",
+        "daily",
+        "weekly",
+        "monthly",
+        "annualy"
+      ]
+    },
+    "SendEmail": {
+      "type": "boolean",
+      "default": false
+    },
+    "Color": {
+      "type": "json"
+    },
+    "list": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::list.list"
+    },
+    "note": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::note.note"
+    }
+  }
+}

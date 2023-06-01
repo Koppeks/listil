@@ -73,11 +73,6 @@
         "images"
       ]
     },
-    "calendary": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::calendary.calendary"
-    },
     "lists": {
       "type": "relation",
       "relation": "oneToMany",
@@ -87,6 +82,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::note.note"
+    },
+    "calendar": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::calendar.calendar"
     }
   }
 }

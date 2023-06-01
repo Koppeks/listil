@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * calendary service
+ * reminder service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::calendary.calendary');
+module.exports = createCoreService('api::reminder.reminder');

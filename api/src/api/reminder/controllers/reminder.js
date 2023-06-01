@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * calendary controller
+ * reminder controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::calendary.calendary');
+module.exports = createCoreController('api::reminder.reminder');

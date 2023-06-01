@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * calendary router
+ * reminder router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::calendary.calendary');
+module.exports = createCoreRouter('api::reminder.reminder');
