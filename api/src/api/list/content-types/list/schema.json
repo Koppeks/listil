@@ -17,7 +17,7 @@
       "required": true,
       "minLength": 4,
       "maxLength": 50,
-      "regex": "/^[a-zA-ZÀ-ÿ0-9\\s'-]*$/"
+      "default": "titulo"
     },
     "Description": {
       "type": "richtext",
