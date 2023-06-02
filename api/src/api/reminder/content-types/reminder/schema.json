@@ -18,7 +18,6 @@
     },
     "Title": {
       "type": "string",
-      "regex": "/^[a-zA-ZÀ-ÿ0-9\\s'-]*$/",
       "required": true,
       "maxLength": 50
     },
