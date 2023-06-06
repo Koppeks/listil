@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lists",
+  "info": {
+    "singularName": "list",
+    "pluralName": "lists",
+    "displayName": "List",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "minLength": 4,
+      "maxLength": 50,
+      "default": "titulo"
+    },
+    "Description": {
+      "type": "richtext",
+      "maxLength": 600,
+      "required": false
+    },
+    "IsItPrivate": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ContentList": {
+      "type": "json",
+      "required": true
+    },
+    "Tags": {
+      "type": "json",
+      "required": true
+    },
+    "ToDo": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "ListId": {
+      "type": "uid",
+      "required": true
+    },
+    "CreationDate": {
+      "type": "date",
+      "required": true
+    },
+    "ModificationDate": {
+      "type": "date"
+    },
+    "Color": {
+      "type": "json"
+    }
+  }
+}
