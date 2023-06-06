@@ -1,9 +1,11 @@
 import Layout from "@/components/Layout"
+import Header from "@/components/Header"
 
 export default function Home() {
   return (
     <div>
       <Layout>
+      <Header />
       atquenam, reiciendis rem commodi fugit soluta nesciunt earum, similique sapiente. Quasi dignissimos magni quibusdam velit ipsam accusamus asperiores aperiam.
       Dolor corporis ipsum, nam doloremque ex quo sint quia deserunt eos vel? Minus sed soluta maxime possimus quos quidem? Suscipit autem et natus. Cupiditate ad, dolore facilis temporibus adipisci voluptate!
       Atque deleniti sunt molestiae illum delectus, dolorum blanditiis nobis animi eius dolore quasi aperiam quisquam placeat dicta, cum porro impedit alias. Deserunt rerum qui dignissimos, dolore eligendi quam iste ex!
