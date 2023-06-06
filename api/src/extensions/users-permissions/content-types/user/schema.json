@@ -65,7 +65,7 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "Avatar": {
+    "avatar": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -83,10 +83,13 @@
       "relation": "oneToMany",
       "target": "api::note.note"
     },
-    "calendar": {
+    "reminders": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::calendar.calendar"
+      "relation": "oneToMany",
+      "target": "api::reminder.reminder"
+    },
+    "timezone": {
+      "type": "json"
     }
   }
 }
