@@ -6,8 +6,8 @@ const Nav = () => {
     <section className={styles.container}>
         <span className={styles.listil}>Listil</span>
         <ul className={styles.navegacion}>
-            <li><Link href="#">Ingresa</Link></li>
-            <li><Link href="#">Crea una cuenta</Link></li>
+            <li><Link href="/login">Ingresa</Link></li>
+            <li><Link href="/register">Crea una cuenta</Link></li>
         </ul>
     </section>
   )
