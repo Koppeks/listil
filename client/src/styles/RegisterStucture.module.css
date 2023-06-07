@@ -1,0 +1,147 @@
+@media screen and (max-width: 780px) {
+  .Size {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 48.75em;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  .BarTop {
+    width: 100%;
+    height: 12.563em;
+    background-color: #3c956a;
+  }
+  .Ball1 {
+    position: absolute;
+    width: 20.625em;
+    height: 20.625em;
+    left: -2.563em;
+    top: -8.063em;
+    background-color: #46d691;
+    border-radius: 624.938em;
+  }
+  .Ball2 {
+    position: absolute;
+    width: 20.625em;
+    height: 20.625em;
+    left: -8.563em;
+    top: -6.25em;
+    border-radius: 624em;
+    background: #3c956a;
+  }
+  .Content {
+    min-height: 100vh;
+    width: 100%;
+  }
+  .BarBot {
+    width: 100%;
+    height: 4.688em;
+    background-color: #3c956a;
+    display: flex;
+    justify-content: right;
+  }
+  .BarBotLeft {
+    width: 70%;
+    height: 100%;
+  }
+  .BarBotRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    height: 100%;
+    background-image: url("../../public/Ellipse29.png");
+    background-repeat: no-repeat;
+  }
+  .Ball3 {
+    position: absolute;
+    width: 400px;
+    height: 294px;
+    left: 28em;
+    top: 987px;
+    border-radius: 600em;
+    background-color: #46d691;
+    transform: rotate(180deg);
+  }
+  .Icon {
+    margin-left: 1em;
+    color: #f7f7f7;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .Size {
+    max-width: 120em;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .BarTop {
+    width: 100%;
+    height: 12.563em;
+    background-color: #3c956a;
+  }
+  .Ball1 {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: -41px;
+    top: -153px;
+    background-color: #46d691;
+    border-radius: 99999px;
+  }
+  .Ball2 {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: -137px;
+    top: -109px;
+    border-radius: 99999px;
+    background: #3c956a;
+  }
+  .Content {
+    height: 41.3em;
+    width: 100%;
+    display: flex;
+  }
+  .BarBot {
+    width: 100%;
+    height: 4.688em;
+    background-color: #3c956a;
+    display: flex;
+    justify-content: right;
+  }
+  .BarBotLeft {
+    width: 70%;
+    height: 100%;
+  }
+  .BarBotRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5%;
+    height: 100%;
+    background-image: url("../../public/Ellipse29.png");
+    background-repeat: no-repeat;
+  }
+  .Ball3 {
+    position: absolute;
+    width: 400px;
+    height: 294px;
+    left: 28em;
+    top: 987px;
+    border-radius: 600em;
+    background-color: #46d691;
+    transform: rotate(180deg);
+  }
+  .Icon {
+    margin-left: 1em;
+    color: #f7f7f7;
+    font-size: 2rem;
+  }
+}
+
