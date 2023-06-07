@@ -1,0 +1,77 @@
+.container {
+    position: relative;
+    width: 335px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 600px;
+    }
+}
+
+.input {
+    width: 85%;
+    height: 30px;
+    border: 2px solid var(--primary-color);
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    font-size: 16px;
+    padding-left: .5em;
+}
+
+@media (min-width: 768px) {
+    .input {
+        height: 50px;
+        font-size: 24px;
+    }
+}
+
+.input::placeholder {
+    font-family: var(--font-esteban);
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .input::placeholder {
+        font-size: 24px;
+    }
+}
+
+.input:focus {
+    outline: none;
+}
+
+.button {
+    width: 15%;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid var(--primary-color);
+    border-radius: 0px 20px 20px 0px;
+    padding-top: .2em;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .button {
+        height: 50px;
+    }
+}
+
+.button:hover {
+    background-color: var(--primary-color);
+}
+
+.button:hover svg{
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+    .button svg {
+        width: 31px;
+        height: 31px;
+    }
+}

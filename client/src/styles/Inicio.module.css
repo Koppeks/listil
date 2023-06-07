@@ -1,0 +1,12 @@
+.text {
+    font-family: var(--font-esteban);
+    font-size: 22px;
+    text-align: center;
+    margin: .8em 0 .5em 0;
+}
+
+@media (min-width: 768px) {
+    .text {
+        font-size: 36px;
+    }
+}
