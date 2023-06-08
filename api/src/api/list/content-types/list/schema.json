@@ -41,17 +41,9 @@
       "type": "json",
       "required": true
     },
-    "Tags": {
-      "type": "json",
-      "required": true
-    },
     "ToDo": {
       "type": "boolean",
       "default": false,
-      "required": true
-    },
-    "ListId": {
-      "type": "uid",
       "required": true
     },
     "CreationDate": {
