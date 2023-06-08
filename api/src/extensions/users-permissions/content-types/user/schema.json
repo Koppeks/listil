@@ -91,7 +91,7 @@
     "timezone": {
       "type": "json"
     },
-    "tags": {
+    "dataTags": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::tag.tag",
