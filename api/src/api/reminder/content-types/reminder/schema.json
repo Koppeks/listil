@@ -12,10 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "ReminderId": {
-      "type": "uid",
-      "required": true
-    },
     "Title": {
       "type": "string",
       "required": true,

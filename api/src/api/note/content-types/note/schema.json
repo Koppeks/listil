@@ -29,10 +29,6 @@
         "images"
       ]
     },
-    "NoteId": {
-      "type": "uid",
-      "required": true
-    },
     "Color": {
       "type": "json"
     }
