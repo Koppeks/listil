@@ -1,0 +1,22 @@
+.container {
+    background-color: var(--primary-color);
+    width: 125px;
+    height: 40px;
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0% 100%, 8% 50%, 0% 0%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-family: var(--font-esteban);
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 24px;
+    }
+}
