@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 .5em;
+}
+
+@media(min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+}

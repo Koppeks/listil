@@ -2,11 +2,13 @@
     position: relative;
     width: 335px;
     margin: auto;
+    margin-bottom: 2.5em;
 }
 
 @media (min-width: 768px) {
     .container {
         width: 600px;
+        margin-bottom: 3.5em;
     }
 }
 
@@ -53,6 +55,7 @@
     padding-top: .2em;
     background-color: #FFFFFF;
     cursor: pointer;
+    transition-duration: 0.4s;
 }
 
 @media (min-width: 768px) {
@@ -63,6 +66,10 @@
 
 .button:hover {
     background-color: var(--primary-color);
+}
+
+.button svg {
+    color: var(--primary-color);
 }
 
 .button:hover svg{
