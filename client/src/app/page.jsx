@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout"
 import Header from "@/components/Header"
 import Input from "@/components/Input"
-import TagContainer from "@/components/TagContainer"
+import TagsContainer from "@/components/TagsContainer"
 import styles from "../styles/Inicio.module.css"
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
       <p className={styles.text}>Busca entre nuestras miles de listas</p>
       <Input />
       <p className={styles.text}>Las etiquetas mas buscadas</p>
-      <TagContainer />
+      <TagsContainer />
       atquenam, reiciendis rem commodi fugit soluta nesciunt earum, similique sapiente. Quasi dignissimos magni quibusdam velit ipsam accusamus asperiores aperiam.
       Dolor corporis ipsum, nam doloremque ex quo sint quia deserunt eos vel? Minus sed soluta maxime possimus quos quidem? Suscipit autem et natus. Cupiditate ad, dolore facilis temporibus adipisci voluptate!
       Atque deleniti sunt molestiae illum delectus, dolorum blanditiis nobis animi eius dolore quasi aperiam quisquam placeat dicta, cum porro impedit alias. Deserunt rerum qui dignissimos, dolore eligendi quam iste ex!

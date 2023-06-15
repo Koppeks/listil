@@ -2,7 +2,7 @@ import styles from "../styles/Tag.module.css"
 
 const Tag = ({string}) => {
   return (
-    <div className={styles.container}>{string}</div>
+    <p className={styles.container}>{string}</p>
   )
 }
 
