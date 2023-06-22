@@ -5,3 +5,5 @@ export const postUser = (item) => () => {
       headers: new Headers({ "content-type": "application/json" }),
     }).then((res) => console.log(res));
   };
+
+  

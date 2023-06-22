@@ -50,17 +50,52 @@
   border-bottom: 2px solid #3c956a;
   background-color: #46d69000;
 }
-.InputText:focus {
+
+.InputTextError {
+  width: 90%;
+  height: 100%;
+  font-size: 20px;
+  font-family: "inter";
   border: none;
+  border-bottom: 2px solid #8c1818;
+  background-color: #46d69000;
+}
+.InputText:focus {
+  outline: none;
 }
 
-.InputText:active {
-  border: none;
+.ContainInput{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Error{
+  font-size: 10px;
+  color: red;
+  
+}
+
+.InputTextError:focus {
+  outline: none;
+}
+
+.ButtonAcc:disabled {
+  opacity:0.35;
 }
 
 .Balls {
   width: 5%;
   background-color: #3c956a;
+  height: 50%;
+  border-radius: 99px;
+  margin-right: 2em;
+}
+.BallsError{
+  width: 5%;
+  background-color: #8c1818;
   height: 50%;
   border-radius: 99px;
   margin-right: 2em;
