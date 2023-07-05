@@ -1,0 +1,59 @@
+.Background{
+    max-width: 120em;
+    min-height: 100vh;
+    background-color: #FFFFFF
+}
+.InfoProf{
+    display: flex;
+    height: 30em;
+    width: 100%;
+    justify-content: center;
+    align-items:center ;
+}
+
+.Container{
+    width: 90%;
+    height: 80%;
+    display: flex;
+}
+
+.Container_LeftPanel{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ProfilePic{
+    border: 2px green solid;
+    border-radius: 99px;
+}
+
+
+.Container_RightPanel{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Container_RightPanel_Top{
+    width: 100%;
+    height: 5%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.Container_RightPanel_Bot{
+    width: 100%;
+    height: 95%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-top: 2em;
+}
