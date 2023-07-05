@@ -1,7 +1,9 @@
 .Background{
     max-width: 120em;
     min-height: 100vh;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    
+    
 }
 .InfoProf{
     display: flex;
@@ -11,6 +13,11 @@
     align-items:center ;
 }
 
+.Esteban{
+    font-family: Esteban;
+    font-style: normal;
+    font-weight: 400;
+}
 .Container{
     width: 90%;
     height: 80%;
@@ -24,6 +31,17 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+.BackgroundFoll{
+    background-color: #3C956A;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    border-radius: 8px;
+    color: white;
+    font-family: Esteban;
+    font-weight: 400;
 }
 
 .ProfilePic{
@@ -49,11 +67,24 @@ justify-content: flex-end;
 align-items: center;
 }
 
+.EditProfile{
+    margin-right: 1em;
+    size: 2em;
+    color: #3C956A;
+}
+
 .Container_RightPanel_Bot{
     width: 100%;
     height: 95%;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 10%;
+    
     margin-top: 2em;
+}
+
+.Description{
+    margin-top: 1em;
+    font-family: Esteban;
+font-style: normal;
+font-weight: 400;
 }

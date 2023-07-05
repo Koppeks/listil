@@ -8,24 +8,24 @@ const ProfileInfo = () => {
     <div className={s.InfoProf}>
       <div className={s.Container}>
         <div className={s.Container_LeftPanel}>
-          <h2 className={s.Username}>SantiPaper</h2>
+          <h2 className={s.Esteban}>SantiPaper</h2>
           <Image
             className={s.ProfilePic}
             width={150}
             height={150}
             src={ProfilePic}
           ></Image>
-          <h3>Followers 20</h3>
-          <h3>Following 15 </h3>
+          <h3 className={s.BackgroundFoll}>Followers 20</h3>
+          <h3 className={s.BackgroundFoll}>Following 15 </h3>
         </div>
         <div className={s.Container_RightPanel}>
           <div className={s.Container_RightPanel_Top}>
-            <BsFillPencilFill />
-            <h3>Editar perfil</h3>
+            <BsFillPencilFill className={s.EditProfile} />
+            <h3 className={s.Esteban}>Editar perfil</h3>
           </div>
           <div className={s.Container_RightPanel_Bot}>
-            <h2>Description</h2>
-            <h4>
+            <h2 className={s.Esteban}>Descripcion</h2>
+            <h4 className={s.Description}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
               blanditiis. Dolores quam dignissimos in harum quia aperiam, optio
               nam! Quia nesciunt minima, ut beatae laborum ratione eaque
