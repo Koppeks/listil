@@ -1,0 +1,24 @@
+.ProfLists {
+  display: flex;
+  height: 60em;
+  width: 100%;
+}
+.ListBar {
+  width: 100%;
+  height: 5%;
+  
+  display: flex;
+  border-bottom: 7px solid #3C956A;
+}
+.ContainList{
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.ContainList:active{
+    background-color:#3C956A;
+}
